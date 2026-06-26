@@ -1,4 +1,4 @@
-package entities;
+package org.example.ainewssummarizer.entities;
 
 import java.time.LocalDateTime;
 import java.util.Objects;

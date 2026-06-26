@@ -1,4 +1,4 @@
-package org.example.ainewssummarizer;
+package org.example.ainewssummarizer.Mappers;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
