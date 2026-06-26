@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: AINewsSummarizer
+
+  datasource:
+    url: jdbc:mariadb://localhost:3306/regnews
+    username: regnews
+    password: regnews
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDBDialect
+
