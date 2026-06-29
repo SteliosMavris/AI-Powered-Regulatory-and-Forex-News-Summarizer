@@ -29,7 +29,7 @@ public class Article {
     @Column(nullable = false)
     String title;
 
-    @Column(nullable = false)
+    @Column(unique = true, nullable = false)
     String url;
 
     @Column(nullable = true)
