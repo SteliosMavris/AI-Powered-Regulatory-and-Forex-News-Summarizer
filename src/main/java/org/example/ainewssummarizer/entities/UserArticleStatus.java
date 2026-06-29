@@ -28,7 +28,7 @@ public class UserArticleStatus {
     Article article;
 
     @Column(nullable = false)
-    short is_read = 0;
+    boolean is_read = false;
 
     @Column(nullable = true)
     LocalDateTime read_at = null;
@@ -56,11 +56,11 @@ public class UserArticleStatus {
         this.article = article;
     }
 
-    public short getIsRead() {
+    public boolean getIsRead() {
         return is_read;
     }
 
-    public void setIsRead(short is_read) {
+    public void setIsRead(boolean is_read) {
         this.is_read = is_read;
     }
 
