@@ -1,10 +1,7 @@
 package org.example.ainewssummarizer.controllers;
 
 
-import org.example.ainewssummarizer.DTOs.ArticleReturnDTO;
-import org.example.ainewssummarizer.DTOs.ArticleSummaryDTO;
-import org.example.ainewssummarizer.DTOs.ReturnAllDTO;
-import org.example.ainewssummarizer.DTOs.UserArticleStatusDTO;
+import org.example.ainewssummarizer.DTOs.*;
 import org.example.ainewssummarizer.Services.NewsServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
